@@ -16,6 +16,10 @@ body {
 
 .cv {
   box-shadow: 1px 81px 100px 5px rgba(0, 0, 0, 0.49);
+  max-width: 1024px;
+  margin: auto;
+  border: black solid 1px;
+  display: flex;
 }
 
 .about {
@@ -44,6 +48,9 @@ body {
 .contacts_text {
   text-transform: uppercase;
   font-size: 20px;
+}
+.wrapper__contacts_text {
+  margin-left: 23px;
 }
 .underlined {
   width: 100%;
@@ -92,3 +99,66 @@ ul.linkedin li {
   color: inherit;
   text-decoration: none;
 }  */
+
+.skills_list {
+  margin-bottom: 4rem;
+}
+
+.skills_list li + li {
+  margin-top: 1rem;
+}
+
+.about_me {
+  padding: 1rem;
+  width: 75%;
+  color: #4d4d4d;
+  background-color: white;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.education {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.discription {
+  padding: 10px;
+  display: flex;
+  font-size: 15px;
+  line-height: 1.5;
+  border-top: solid grey 1px;
+}
+
+.discription__item1 {
+  width: 35%;
+}
+
+.discription__item2 {
+  padding-left: 10px;
+  width: 75%;
+}
+.strong {
+  font-weight: bold;
+}

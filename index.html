@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>CV</title>
   </head>
@@ -15,6 +16,7 @@
       <article class="contacts">
         <h3 class="contacts_text">contact me</h3>
         <div class="underlined"></div>
+           <div class="wrapper__contacts_text">
         <ul class="phone">
           <li class="phone__icon"><a class="fas fa-phone-volume"></a></li>
           <li class="phone_number">Discord : @Alexandr#0870</li>
@@ -31,30 +33,31 @@
             </a>
           </li>
         </ul>
+    </div>
       </article>
       <article class="skills">
         <h3 class="skills_text">SKILLS </h3>
-        <hr />
+        <div class="underlined"></div>
         <div class="skills_skills">
-          <ol class="skills_list">
+          <ul class="skills_list">
             <li class="html">HTML5</li>
             <li class="css">CSS3, SASS</li>
             <li class="javascript">JavaScript</li>
             <li class="react">React</li>
             <li class="git">Git</li>
             <li class="figma">Figma</li>
-            //<li class="oop">OOP</li>
+            <li class="oop">OOP</li>
             <li class="bootstrap">Bootstrap</li>
         </div>
         <div class="work_examples"></div>
-        <hr />
-        <nav class="work">
+        <div class="underlined"></div>
+        <!-- <nav class="work">
           <ul>
             <li></li>
             <li></li>
             <li></li>
           </ul>
-        </nav>
+        </nav> -->
       </article>
       <div class="logo">
       </div>
@@ -63,27 +66,27 @@
         <h1>Mike Biryukov</h1>
         <h5>Junior Front-end Developer
         </h5>
-        <hr />
+        <div class="underlined-grey"></div>
         <article class="education">
             <h2>Education</h2>
             <div class="discription">
-            <div class="discription_item1">
+            <div class="discription__item1">
                 <div>
-                    <span class="strong">09/2020</span> "-"
+                    <span class="strong">09/2020</span> -
                     <span class="strong">04/2021</span>
                 </div>
-            </div>
-            <div>
-                <span class="strong">Rolling Scopes School
-                </span>
-            </div>
-            <div class="discription_item2">
+                <div>
+                    <span class="strong">Rolling Scopes School
+                    </span>
+                </div>
+            </div>           
+            <div class="discription__item2">
                 <span class="strong">Course:</span>
                 "JavaScript Development"
             </div>
             </div>    
             <div class="discription">
-                <div class="discription_item1">
+                <div class="discription__item1">
                     <div>
                         <span class="strong">02/2020 – 06/2020</span>
                     </div>
@@ -91,7 +94,7 @@
                         <span class="strong">IT Academy</span>
                     </div>
                 </div>
-                <div class="discription_item2">
+                <div class="discription__item2">
                     <div>
                         <span class="strong">Course: </span>
                         Web Application Development With JavaScript (advanced)
@@ -99,7 +102,7 @@
                 </div>
             </div>
             <div class="discription">
-                <div class="discription_item1">
+                <div class="discription__item1">
                     <div>
                         <span class="strong">10/2019 – 02/2020</span>
                     </div>
@@ -107,7 +110,7 @@
                         <span class="strong">IT Academy</span>
                     </div>
                 </div>
-                <div class="discription_item2">
+                <div class="discription__item2">
                     <span class="strong">Course:</span>
                     Website Development With HTML, CSS & JavaScript
                 </div>
@@ -117,54 +120,76 @@
         <article class="experience">
             <h2>Experience</h2>
             <div class="discription">
-                <div class="discription_item1"></div>
+              <div class="discription__item1">
                 <div>
-                    <span class="strong">09/2021 - 11/2021</span>
-                </div>
-                <div>
-                    <span class="strong">IBBY</span>
-                </div>
-                <div class="discription_item2">
-                    <strong>Role:</strong> Junior Front-end DeveloperБ<br>
-                    <strong>Tools & Technologies:</strong>   
-                    Drupal 8, composer, twig, gulp, Gitlab, Jira, phpstorm<br>
-                </div>
-            </div>
-             <div class="discription">
-                <div class="discription_item1"></div>
-                <div>
-                    <span class="strong">02/2020 – 06/2020</span>
+                  <span class="strong">09/2021 – 11/2021</span>
                 </div>
                 <div>
-                    <span class="strong">IT Academy</span>
+                  <span class="strong">IBBY</span>
                 </div>
-                <div class="discription_item2">
-                    <strong>Project name:</strong> to-do list app<br>
-                    <strong>Role:</strong>   
-                    Junior Front-end Developer<br>
-                    <strong>Tools & Technologies:</strong><br>
-                    ES5, HTML5, CSS(SASS), JavaScript, Fancybox, Swiper, Avocode
-                </div>
+              </div>
+              <div class="discription__item2">
+                <b>Role:</b> Junior Front-end Developer<br>
+                <b>Tools &amp; Technologies:</b> Drupal 8, composer, twig, gulp, Gitlab, Jira, phpstorm<br>
+              </div>
             </div>
             <div class="discription">
-                <div class="discription_item1"></div>
+              <div class="discription__item1">
                 <div>
-                    <span class="strong">09/2013 - 12/2019 - Manager,<br>
-                        Wholesale company</span>
+                  <span class="strong">02/2020 – 06/2020</span>
                 </div>
-                
-                <div class="discription_item2">
-                    <strong>Main responsibilities:</strong><br>
-                    <ul>
-                        <li>general management of the company</li>
-                        <li>transactions and deals support</li>
-                        <li>interaction with suppliers in Russia, Kazakhstan, Kyrgyzstan, Iran, Ukraine</li>
-                        <li>nternational trading of milk products</li>
-                    </ul>
+                <div>
+                  <span class="strong">IT Academy</span>
                 </div>
+              </div>
+              <div class="discription__item2">
+                <b>Project name:</b> to-do list app<br>
+                <b>Role:</b> Junior Front-end Developer<br>
+                <b>Tools &amp; Technologies:</b> ES6, MVC, SPA, Modules, AJAX,
+                Node.js, npm<br>
+              </div>
             </div>
-        </article>
-        <article class="references">
+            <div class="discription">
+              <div class="discription__item1">
+                <div>
+                  <span class="strong">10/2019 – 02/2020</span>
+                </div>
+                <div>
+                  <span class="strong">IT Academy</span>
+                </div>
+              </div>
+              <div class="discription__item2">
+                <b>Project name:</b> phoenixcom site<br>
+                <b>Role:</b> Junior Front-end Developer<br>
+                <b>Tools &amp; Technologies:</b> ES5, HTML5, CSS(SASS), JavaScript,
+                Fancybox, Swiper, Avocode<br>
+              </div>
+            </div>
+            <div class="discription">
+              <div class="discription__item1">
+                <b>09/2013 – 12/2019 – Manager,<br>Wholesale company</b>
+              </div>
+              <div class="discription__item2">
+                <b>Main responsibilities:</b><br>
+                <ul>
+                  <li>
+                    general management of the company
+                  </li>
+                  <li>
+                    transactions and deals support
+                  </li>
+                  <li>
+                    interaction with suppliers in Russia, Kazakhstan, Kyrgyzstan,
+                    Iran, Ukraine
+                  </li>
+                  <li>
+                    international trading of milk products
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        <!-- <article class="references">
             <h4>References</h4>
             <p>Letter of recommendation from:<br>
                 - Educational Center for Programming and High Tech (IT-Academy) References<br>
@@ -185,7 +210,7 @@
                 <span class="year-font">2023</span>
               </div>
         </nav>
-        <footer class="footer"> </footer>
+        <footer class="footer"> </footer> -->
     </section>
   </main>  
   <body></body>
